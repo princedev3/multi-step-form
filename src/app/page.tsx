@@ -53,7 +53,7 @@ const page = () => {
       next();
       return;
     }
-    console.log(userData);
+    alert(JSON.stringify(userData, null, 2));
   };
   return (
     <div className="w-full max-w-2xl mx-auto border p-7 rounded-lg relative">
